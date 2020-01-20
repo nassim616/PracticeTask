@@ -9,10 +9,11 @@ public class Fibonacci {
 //    Write a program to print Fibonacci series of n terms where n is input by user : 0 1 1 2 3 5 8 13 21 .....
 //
 //    Example:
+
 //    Input:
-//            6
+//    6
 //    Output:
-//            0 1 1 2 3 5
+         //   0 1 1 2 3 5 8 13 21
         System.out.println(" enter you fibonacci series ");
   Scanner n = new Scanner(System.in);
   int number = n.nextInt();
@@ -26,8 +27,5 @@ for ( int  i = 0 ; i<number; i++){
     num1= num2;
     num2 = sum;
 }
-
-
 }
-
 }
