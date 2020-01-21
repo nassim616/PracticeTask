@@ -6,7 +6,7 @@ import kotlin.jvm.internal.MagicApiIntrinsics;
 public class booleen {
     public static void main(String[] args) {
         String str = " Love is around the word  ";
-        String str2 = " burger";
+        String str2 = " burger king ";
         String str3 = " ";
         boolean check_capital_L =  str.startsWith("L");
         boolean check_ends_d = str.endsWith("d");
